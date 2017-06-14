@@ -19,6 +19,9 @@
 	    "developers": [{
 	        "name": "Arjan Kranenburg",
 	        "email": "arjan.kranenburg@gmail.com"
+	    },{
+	        "name": "Techniman",
+	        "email": "tweakers.niels@gmail.com"
 	    }],
 	    "graphical designer": [{
 	        "name": "ZperX"
@@ -1617,7 +1620,7 @@
                 "large": "drivers/switch_light/assets/images/large.png",
                 "small": "drivers/switch_light/assets/images/small.png"
             },
-            "class": "other",
+            "class": "light",
             "capabilities": [ "onoff" ],
             "pair": [
                 {
@@ -1654,8 +1657,8 @@
                 "large": "drivers/switch_blind/assets/images/large.png",
                 "small": "drivers/switch_blind/assets/images/small.png"
             },
-            "class": "other",
-            "capabilities": [ "onoff" ],
+            "class": "windowcoverings",
+            "capabilities": [ "onoff", "dim", "windowcoverings_state" ],
             "pair": [
                 {
                     "id": "list_blind",
@@ -1691,8 +1694,8 @@
                 "large": "drivers/switch_tv/assets/images/large.png",
                 "small": "drivers/switch_tv/assets/images/small.png"
             },
-            "class": "other",
-            "capabilities": [ "onoff" ],
+            "class": "tv",
+            "capabilities": [ "onoff", "volume_set", "volume_mute", "volume_up", "volume_down", "channel_up", "channel_down" ],
             "pair": [
                 {
                     "id": "list_tv",
@@ -1728,8 +1731,8 @@
                 "large": "drivers/switch_hifi/assets/images/large.png",
                 "small": "drivers/switch_hifi/assets/images/small.png"
             },
-            "class": "other",
-            "capabilities": [ "onoff" ],
+            "class": "amplifier",
+            "capabilities": ["onoff","volume_set", "volume_mute", "volume_up", "volume_down" ],
             "pair": [
                 {
                     "id": "list_hifi",
