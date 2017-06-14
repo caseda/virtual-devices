@@ -9,7 +9,7 @@
 		"en": [ "virtual device" ],
 		"nl": [ "Virtuele Apparaten" ]
 	},
-    "version": "0.4.1",
+    "version": "0.4.2",
     "compatibility": "0.x || 1.x",
     "author": {
         "name": "Arjan Kranenburg",
@@ -20,7 +20,7 @@
 	        "name": "Arjan Kranenburg",
 	        "email": "arjan.kranenburg@gmail.com"
 	    },{
-	        "name": "Techniman",
+	        "name": "Radiotechniman",
 	        "email": "tweakers.niels@gmail.com"
 	    }],
 	    "graphical designer": [{
