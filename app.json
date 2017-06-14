@@ -1695,7 +1695,7 @@
                 "small": "drivers/switch_tv/assets/images/small.png"
             },
             "class": "tv",
-            "capabilities": [ "onoff", "volume_set", "volume_mute", "volume_up", "volume_down", "channel_up", "channel_down" ],
+            "capabilities": [ "onoff"],
             "pair": [
                 {
                     "id": "list_tv",
