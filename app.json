@@ -72,23 +72,7 @@
           "id": "add_button",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "button"
-            ]
-          },
-          {
-            "id": "button",
-            "capabilities": [
-              "button"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "button_alarm",
@@ -116,23 +100,7 @@
           "id": "add_button_alarm",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "button"
-            ]
-          },
-          {
-            "id": "button",
-            "capabilities": [
-              "button"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "button_hifi",
@@ -160,23 +128,7 @@
           "id": "add_button_hifi",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "button"
-            ]
-          },
-          {
-            "id": "button",
-            "capabilities": [
-              "button"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "button_light",
@@ -204,23 +156,7 @@
           "id": "add_button_light",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "button"
-            ]
-          },
-          {
-            "id": "button",
-            "capabilities": [
-              "button"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "button_tv",
@@ -248,23 +184,7 @@
           "id": "add_button_tv",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "button"
-            ]
-          },
-          {
-            "id": "button",
-            "capabilities": [
-              "button"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "mode_away",
@@ -778,23 +698,7 @@
           "id": "add_blind",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "onoff"
-            ]
-          },
-          {
-            "id": "toggle",
-            "capabilities": [
-              "onoff"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "switch_hifi",
@@ -826,23 +730,7 @@
           "id": "add_hifi",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "onoff"
-            ]
-          },
-          {
-            "id": "toggle",
-            "capabilities": [
-              "onoff"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "switch_light",
@@ -870,23 +758,7 @@
           "id": "add_light",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "onoff"
-            ]
-          },
-          {
-            "id": "toggle",
-            "capabilities": [
-              "onoff"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "switch_tv",
@@ -914,23 +786,7 @@
           "id": "add_tv",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "onoff"
-            ]
-          },
-          {
-            "id": "toggle",
-            "capabilities": [
-              "onoff"
-            ]
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "virtual_switch",
@@ -942,7 +798,7 @@
         "large": "drivers/virtual_switch/assets/images/large.png",
         "small": "drivers/virtual_switch/assets/images/small.png"
       },
-      "class": "other",
+      "class": "socket",
       "capabilities": [
         "onoff"
       ],
@@ -958,23 +814,7 @@
           "id": "add_switches",
           "template": "add_devices"
         }
-      ],
-      "mobile": {
-        "components": [
-          {
-            "id": "icon",
-            "capabilities": [
-              "onoff"
-            ]
-          },
-          {
-            "id": "toggle",
-            "capabilities": [
-              "onoff"
-            ]
-          }
-        ]
-      }
+      ]
     }
   ],
   "flow": {
