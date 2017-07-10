@@ -2,7 +2,7 @@
 
 This app gives you the opportunity to add Virtual Devices to Homey that can be operated from the UI Interface and that can trigger flows.
 
-Or you can add a mode and add it as a condition, e.g. to dissable multiple flows when going on Holiday.
+Or you can add a mode and add it as a condition, e.g. to disable multiple flows when going on Holiday.
 
 ## What works:
 
@@ -38,7 +38,7 @@ Or you can add a mode and add it as a condition, e.g. to dissable multiple flows
 I'm very interested to hear your ideas for other virtual devices.
 
 ### Homey Config Composer
-to add a device just add the appropiate config files and run the  
+to add a device just add the appropriate config files and run the  
 `homeyConfig compose`  
 command and it will be added into the app.json  
 
@@ -46,6 +46,9 @@ you will need to install the homey config composer to be able to do this:
 https://www.npmjs.com/package/node-homey-config-composer
 
 ## Release history
+
+### 0.5.0
+* Under the hood change for easier adding devices.
 
 ### 0.4.0
 * Added Buttons
