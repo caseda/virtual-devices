@@ -1,44 +1,36 @@
 {
-  "id": "mode_security",
-  "name": {
-    "en": "Security",
-    "nl": "Beveiliging"
-  },
-  "images": {
-    "large": "drivers/mode_security/assets/images/large.png",
-    "small": "drivers/mode_security/assets/images/small.png"
-  },
-  "class": "other",
-  "capabilities": [
-    "onoff"
-  ],
-  "pair": [
-    {
-      "id": "list_switches",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_switches"
-      }
-    },
-    {
-      "id": "add_switches",
-      "template": "add_devices"
-    }
-  ],
-  "mobile": {
-    "components": [
-      {
-        "id": "icon",
-        "capabilities": [
-          "onoff"
-        ]
-      },
-      {
-        "id": "toggle",
-        "capabilities": [
-          "onoff"
-        ]
-      }
-    ]
-  }
+	"id": "mode_security",
+	"name": {
+		"en": "Security",
+		"nl": "Beveiliging"
+	},
+	"images": {
+		"large": "drivers/mode_security/assets/images/large.png",
+		"small": "drivers/mode_security/assets/images/small.png"
+	},
+	"class": "other",
+	"capabilities": ["onoff"],
+	"pair": [
+		{
+			"id": "list_switches",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_switches"
+			}
+		}, {
+			"id": "add_switches",
+			"template": "add_devices"
+		}
+	],
+	"mobile": {
+		"components": [
+			{
+				"id": "icon",
+				"capabilities": ["onoff"]
+			}, {
+				"id": "toggle",
+				"capabilities": ["onoff"]
+			}
+		]
+	}
 }

@@ -1,44 +1,25 @@
 {
-  "id": "switch_tv",
-  "name": {
-    "en": "TV",
-    "nl": "TV"
-  },
-  "images": {
-    "large": "drivers/switch_tv/assets/images/large.png",
-    "small": "drivers/switch_tv/assets/images/small.png"
-  },
-  "class": "tv",
-  "capabilities": [
-    "onoff"
-  ],
-  "pair": [
-    {
-      "id": "list_tv",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_tv"
-      }
-    },
-    {
-      "id": "add_tv",
-      "template": "add_devices"
-    }
-  ],
-  "mobile": {
-    "components": [
-      {
-        "id": "icon",
-        "capabilities": [
-          "onoff"
-        ]
-      },
-      {
-        "id": "toggle",
-        "capabilities": [
-          "onoff"
-        ]
-      }
-    ]
-  }
+	"id": "switch_tv",
+	"name": {
+		"en": "TV",
+		"nl": "TV"
+	},
+	"images": {
+		"large": "drivers/switch_tv/assets/images/large.png",
+		"small": "drivers/switch_tv/assets/images/small.png"
+	},
+	"class": "tv",
+	"capabilities": ["onoff"],
+	"pair": [
+		{
+			"id": "list_tv",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_tv"
+			}
+		}, {
+			"id": "add_tv",
+			"template": "add_devices"
+		}
+	]
 }

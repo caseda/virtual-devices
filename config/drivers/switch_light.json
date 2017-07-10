@@ -1,44 +1,25 @@
 {
-  "id": "switch_light",
-  "name": {
-    "en": "Light",
-    "nl": "Licht"
-  },
-  "images": {
-    "large": "drivers/switch_light/assets/images/large.png",
-    "small": "drivers/switch_light/assets/images/small.png"
-  },
-  "class": "light",
-  "capabilities": [
-    "onoff"
-  ],
-  "pair": [
-    {
-      "id": "list_light",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_light"
-      }
-    },
-    {
-      "id": "add_light",
-      "template": "add_devices"
-    }
-  ],
-  "mobile": {
-    "components": [
-      {
-        "id": "icon",
-        "capabilities": [
-          "onoff"
-        ]
-      },
-      {
-        "id": "toggle",
-        "capabilities": [
-          "onoff"
-        ]
-      }
-    ]
-  }
+	"id": "switch_light",
+	"name": {
+		"en": "Light",
+		"nl": "Licht"
+	},
+	"images": {
+		"large": "drivers/switch_light/assets/images/large.png",
+		"small": "drivers/switch_light/assets/images/small.png"
+	},
+	"class": "light",
+	"capabilities": ["onoff"],
+	"pair": [
+		{
+			"id": "list_light",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_light"
+			}
+		}, {
+			"id": "add_light",
+			"template": "add_devices"
+		}
+	]
 }

@@ -1,44 +1,25 @@
 {
-  "id": "button_light",
-  "name": {
-    "en": "Light Button",
-    "nl": "Lichtknop"
-  },
-  "images": {
-    "large": "drivers/button_light/assets/images/large.png",
-    "small": "drivers/button_light/assets/images/small.png"
-  },
-  "class": "button",
-  "capabilities": [
-    "button"
-  ],
-  "pair": [
-    {
-      "id": "list_button_light",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_button_light"
-      }
-    },
-    {
-      "id": "add_button_light",
-      "template": "add_devices"
-    }
-  ],
-  "mobile": {
-    "components": [
-      {
-        "id": "icon",
-        "capabilities": [
-          "button"
-        ]
-      },
-      {
-        "id": "button",
-        "capabilities": [
-          "button"
-        ]
-      }
-    ]
-  }
+	"id": "button_light",
+	"name": {
+		"en": "Light Button",
+		"nl": "Lichtknop"
+	},
+	"images": {
+		"large": "drivers/button_light/assets/images/large.png",
+		"small": "drivers/button_light/assets/images/small.png"
+	},
+	"class": "button",
+	"capabilities": ["button"],
+	"pair": [
+		{
+			"id": "list_button_light",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_button_light"
+			}
+		}, {
+			"id": "add_button_light",
+			"template": "add_devices"
+		}
+	]
 }

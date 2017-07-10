@@ -1,48 +1,27 @@
 {
-  "id": "switch_hifi",
-  "name": {
-    "en": "Hi-Fi",
-    "nl": "Hi-Fi"
-  },
-  "images": {
-    "large": "drivers/switch_hifi/assets/images/large.png",
-    "small": "drivers/switch_hifi/assets/images/small.png"
-  },
-  "class": "amplifier",
-  "capabilities": [
-    "onoff",
-    "volume_set",
-    "volume_mute",
-    "volume_up",
-    "volume_down"
-  ],
-  "pair": [
-    {
-      "id": "list_hifi",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_hifi"
-      }
-    },
-    {
-      "id": "add_hifi",
-      "template": "add_devices"
-    }
-  ],
-  "mobile": {
-    "components": [
-      {
-        "id": "icon",
-        "capabilities": [
-          "onoff"
-        ]
-      },
-      {
-        "id": "toggle",
-        "capabilities": [
-          "onoff"
-        ]
-      }
-    ]
-  }
+	"id": "switch_hifi",
+	"name": {
+		"en": "Hi-Fi",
+		"nl": "Hi-Fi"
+	},
+	"images": {
+		"large": "drivers/switch_hifi/assets/images/large.png",
+		"small": "drivers/switch_hifi/assets/images/small.png"
+	},
+	"class": "amplifier",
+	"capabilities": [
+		"onoff", "volume_set", "volume_mute", "volume_up", "volume_down"
+	],
+	"pair": [
+		{
+			"id": "list_hifi",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_hifi"
+			}
+		}, {
+			"id": "add_hifi",
+			"template": "add_devices"
+		}
+	]
 }

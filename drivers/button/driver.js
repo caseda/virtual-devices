@@ -79,7 +79,7 @@ module.exports.capabilities.button.set = function( args, button, callback ) {
     // also emit the new value to realtime
     // this produces Insights logs and triggers Flows
     module.exports.realtime( args, 'button', true);
-    
+
     // send the new onoff value to Homey
     callback( null, false );
 };
@@ -94,7 +94,7 @@ Homey.manager('flow').on('action.button_pushed', function( callback, args ){
    		if (err) return console.error(err);
 	});
     module.exports.realtime( args, 'button', true);
-    
+
     callback( null, true );
 });
 

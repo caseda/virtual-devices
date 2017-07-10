@@ -1,44 +1,36 @@
 {
-  "id": "mode_manual",
-  "name": {
-    "en": "Manual mode",
-    "nl": "Handmatigemodus"
-  },
-  "images": {
-    "large": "drivers/mode_manual/assets/images/large.png",
-    "small": "drivers/mode_manual/assets/images/small.png"
-  },
-  "class": "other",
-  "capabilities": [
-    "onoff"
-  ],
-  "pair": [
-    {
-      "id": "list_manual",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_manual"
-      }
-    },
-    {
-      "id": "add_manual",
-      "template": "add_devices"
-    }
-  ],
-  "mobile": {
-    "components": [
-      {
-        "id": "icon",
-        "capabilities": [
-          "onoff"
-        ]
-      },
-      {
-        "id": "toggle",
-        "capabilities": [
-          "onoff"
-        ]
-      }
-    ]
-  }
+	"id": "mode_manual",
+	"name": {
+		"en": "Manual mode",
+		"nl": "Handmatigemodus"
+	},
+	"images": {
+		"large": "drivers/mode_manual/assets/images/large.png",
+		"small": "drivers/mode_manual/assets/images/small.png"
+	},
+	"class": "other",
+	"capabilities": ["onoff"],
+	"pair": [
+		{
+			"id": "list_manual",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_manual"
+			}
+		}, {
+			"id": "add_manual",
+			"template": "add_devices"
+		}
+	],
+	"mobile": {
+		"components": [
+			{
+				"id": "icon",
+				"capabilities": ["onoff"]
+			}, {
+				"id": "toggle",
+				"capabilities": ["onoff"]
+			}
+		]
+	}
 }

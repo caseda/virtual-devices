@@ -1,44 +1,36 @@
 {
-  "id": "mode_relax",
-  "name": {
-    "en": "Relax mode",
-    "nl": "Ontspanmodus"
-  },
-  "images": {
-    "large": "drivers/mode_relax/assets/images/large.png",
-    "small": "drivers/mode_relax/assets/images/small.png"
-  },
-  "class": "other",
-  "capabilities": [
-    "onoff"
-  ],
-  "pair": [
-    {
-      "id": "list_relax",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_relax"
-      }
-    },
-    {
-      "id": "add_relax",
-      "template": "add_devices"
-    }
-  ],
-  "mobile": {
-    "components": [
-      {
-        "id": "icon",
-        "capabilities": [
-          "onoff"
-        ]
-      },
-      {
-        "id": "toggle",
-        "capabilities": [
-          "onoff"
-        ]
-      }
-    ]
-  }
+	"id": "mode_relax",
+	"name": {
+		"en": "Relax mode",
+		"nl": "Ontspanmodus"
+	},
+	"images": {
+		"large": "drivers/mode_relax/assets/images/large.png",
+		"small": "drivers/mode_relax/assets/images/small.png"
+	},
+	"class": "other",
+	"capabilities": ["onoff"],
+	"pair": [
+		{
+			"id": "list_relax",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_relax"
+			}
+		}, {
+			"id": "add_relax",
+			"template": "add_devices"
+		}
+	],
+	"mobile": {
+		"components": [
+			{
+				"id": "icon",
+				"capabilities": ["onoff"]
+			}, {
+				"id": "toggle",
+				"capabilities": ["onoff"]
+			}
+		]
+	}
 }
