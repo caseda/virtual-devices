@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_tv_on",
+		"title": {
+			"en": "TV is on",
+			"nl": "TV wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_tv"
+			}
+		]
+	}, {
+		"id": "virtual_tv_off",
+		"title": {
+			"en": "TV is off",
+			"nl": "TV wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_tv"
+			}
+		]
+	}
+]

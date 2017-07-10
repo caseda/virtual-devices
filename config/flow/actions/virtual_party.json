@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_party_action_on",
+		"title": {
+			"en": "Turn party mode on",
+			"nl": "Zet feestmodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_party"
+			}
+		]
+	}, {
+		"id": "virtual_party_action_off",
+		"title": {
+			"en": "Turn party mode off",
+			"nl": "Zet feestmodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_party"
+			}
+		]
+	}
+]

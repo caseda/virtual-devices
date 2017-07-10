@@ -1,0 +1,30 @@
+[
+	{
+		"id": "virtual_switch_on",
+		"title": {
+			"en": "Switch is turned on",
+			"nl": "Schakelaar wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=virtual_switch"
+			}
+		]
+	},
+  {
+		"id": "virtual_switch_off",
+		"title": {
+			"en": "Switch is turned off",
+			"nl": "Schakelaar wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=virtual_switch"
+			}
+		]
+	}
+]

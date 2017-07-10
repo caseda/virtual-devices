@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_movie",
+		"title": {
+			"en": "Movie mode !{{is|isn't}} activated",
+			"nl": "Filmmodus !{{is|is niet}} aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_movie"
+			}
+		]
+	}
+]

@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_hifi",
+		"title": {
+			"en": "Hi-Fi !{{is|isn't}} turned on",
+			"nl": "Hi-Fi !{{is|is niet}} aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_hifi"
+			}
+		]
+	}
+]

@@ -1,0 +1,44 @@
+{
+  "id": "mode_sleep",
+  "name": {
+    "en": "Sleep mode",
+    "nl": "Slaapmodus"
+  },
+  "images": {
+    "large": "drivers/mode_sleep/assets/images/large.png",
+    "small": "drivers/mode_sleep/assets/images/small.png"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "list_sleep",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_sleep"
+      }
+    },
+    {
+      "id": "add_sleep",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

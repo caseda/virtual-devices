@@ -1,0 +1,44 @@
+{
+  "id": "mode_party",
+  "name": {
+    "en": "Party mode",
+    "nl": "Feestmodus"
+  },
+  "images": {
+    "large": "drivers/mode_party/assets/images/large.png",
+    "small": "drivers/mode_party/assets/images/small.png"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "list_party",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_party"
+      }
+    },
+    {
+      "id": "add_party",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_light_action_on",
+		"title": {
+			"en": "Turn virtual light on",
+			"nl": "Doe het licht aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_light"
+			}
+		]
+	}, {
+		"id": "virtual_light_action_off",
+		"title": {
+			"en": "Turn virtual light off",
+			"nl": "Doe het licht uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_light"
+			}
+		]
+	}
+]

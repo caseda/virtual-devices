@@ -1,0 +1,44 @@
+{
+  "id": "mode_holiday",
+  "name": {
+    "en": "Holiday mode",
+    "nl": "Vakantiemodus"
+  },
+  "images": {
+    "large": "drivers/mode_holiday/assets/images/large.png",
+    "small": "drivers/mode_holiday/assets/images/small.png"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "list_holiday",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_holiday"
+      }
+    },
+    {
+      "id": "add_holiday",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

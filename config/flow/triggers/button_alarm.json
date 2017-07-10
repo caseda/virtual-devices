@@ -1,0 +1,15 @@
+[{
+		"id": "button_alarm_pushed",
+		"title": {
+			"en": "Alarm button is pushed",
+			"nl": "Alarmknop is ingedrukt"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=button_alarm"
+			}
+		]
+	}
+]

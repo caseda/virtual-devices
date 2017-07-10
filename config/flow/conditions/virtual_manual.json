@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_manual",
+		"title": {
+			"en": "Manual mode !{{is|isn't}} turned on",
+			"nl": "Handmatigemodus !{{is|is niet}} aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_manual"
+			}
+		]
+	}
+]

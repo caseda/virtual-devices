@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_security_action_on",
+		"title": {
+			"en": "Turn security on",
+			"nl": "Zet beveiliging aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_security"
+			}
+		]
+	}, {
+		"id": "virtual_security_action_off",
+		"title": {
+			"en": "Turn security off",
+			"nl": "Zet beveiliging uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_security"
+			}
+		]
+	}
+]

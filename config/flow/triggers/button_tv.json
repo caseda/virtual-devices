@@ -1,0 +1,15 @@
+[{
+		"id": "button_tv_pushed",
+		"title": {
+			"en": "TV button is pushed",
+			"nl": "TV-knop is ingedrukt"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=button_tv"
+			}
+		]
+	}
+]

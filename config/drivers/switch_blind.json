@@ -1,0 +1,46 @@
+{
+  "id": "switch_blind",
+  "name": {
+    "en": "Blinds",
+    "nl": "Blindering"
+  },
+  "images": {
+    "large": "drivers/switch_blind/assets/images/large.png",
+    "small": "drivers/switch_blind/assets/images/small.png"
+  },
+  "class": "windowcoverings",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "windowcoverings_state"
+  ],
+  "pair": [
+    {
+      "id": "list_blind",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_blind"
+      }
+    },
+    {
+      "id": "add_blind",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_alarm_action_on",
+		"title": {
+			"en": "Turn alarm on",
+			"nl": "Zet alarm aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_alarm"
+			}
+		]
+	}, {
+		"id": "virtual_alarm_action_off",
+		"title": {
+			"en": "Turn alarm off",
+			"nl": "Zet alarm uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_alarm"
+			}
+		]
+	}
+]

@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_relax_action_on",
+		"title": {
+			"en": "Turn relax mode on",
+			"nl": "Zet ontspanmodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_relax"
+			}
+		]
+	}, {
+		"id": "virtual_relax_action_off",
+		"title": {
+			"en": "Turn relax mode off",
+			"nl": "Zet ontspanmodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_relax"
+			}
+		]
+	}
+]

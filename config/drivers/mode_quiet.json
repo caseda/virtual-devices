@@ -1,0 +1,44 @@
+{
+  "id": "mode_quiet",
+  "name": {
+    "en": "Quiet mode",
+    "nl": "Stiltemodus"
+  },
+  "images": {
+    "large": "drivers/mode_quiet/assets/images/large.png",
+    "small": "drivers/mode_quiet/assets/images/small.png"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "list_quiet",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_quiet"
+      }
+    },
+    {
+      "id": "add_quiet",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

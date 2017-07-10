@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_quiet_action_on",
+		"title": {
+			"en": "Activate quiet mode",
+			"nl": "Zet stiltemodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_quiet"
+			}
+		]
+	}, {
+		"id": "virtual_quiet_action_off",
+		"title": {
+			"en": "Turn quiet mode off",
+			"nl": "Zet stiltemodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_quiet"
+			}
+		]
+	}
+]

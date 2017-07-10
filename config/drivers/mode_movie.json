@@ -1,0 +1,44 @@
+{
+  "id": "mode_movie",
+  "name": {
+    "en": "Movie mode",
+    "nl": "Filmmodus"
+  },
+  "images": {
+    "large": "drivers/mode_movie/assets/images/large.png",
+    "small": "drivers/mode_movie/assets/images/small.png"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "list_movie",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_movie"
+      }
+    },
+    {
+      "id": "add_movie",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

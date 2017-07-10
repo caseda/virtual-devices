@@ -1,0 +1,15 @@
+[{
+		"id": "button_hifi_pushed",
+		"title": {
+			"en": "Hi-Fi button is pushed",
+			"nl": "Hifiknop is ingedrukt"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=button_hifi"
+			}
+		]
+	}
+]

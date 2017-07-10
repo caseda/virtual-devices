@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_party",
+		"title": {
+			"en": "Party mode !{{is|isn't}} turned on",
+			"nl": "Feestmodus !{{is|is niet}} aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_party"
+			}
+		]
+	}
+]

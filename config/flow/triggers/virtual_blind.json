@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_blind_on",
+		"title": {
+			"en": "Blinds are closed",
+			"nl": "Blindering gaat naar beneden"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_blind"
+			}
+		]
+	}, {
+		"id": "virtual_blind_off",
+		"title": {
+			"en": "Blinds are open",
+			"nl": "Blindering gaat omhoog"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_blind"
+			}
+		]
+	}
+]

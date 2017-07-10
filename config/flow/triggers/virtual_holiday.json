@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_holiday_on",
+		"title": {
+			"en": "Holiday mode is active",
+			"nl": "Vakantiemodus wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_holiday"
+			}
+		]
+	}, {
+		"id": "virtual_holiday_off",
+		"title": {
+			"en": "Holiday mode is off",
+			"nl": "Vakantiemodus wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_holiday"
+			}
+		]
+	}
+]

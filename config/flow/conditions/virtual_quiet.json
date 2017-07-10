@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_quiet",
+		"title": {
+			"en": "Quiet mode !{{is|isn't}} activated",
+			"nl": "Stiltemodus !{{is|is niet}} aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_quiet"
+			}
+		]
+	}
+]

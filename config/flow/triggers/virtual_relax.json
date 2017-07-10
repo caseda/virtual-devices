@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_relax_on",
+		"title": {
+			"en": "Relax mode is active",
+			"nl": "Ontspanmodus wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_relax"
+			}
+		]
+	}, {
+		"id": "virtual_relax_off",
+		"title": {
+			"en": "Relax mode is off",
+			"nl": "Ontspanmodus wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_relax"
+			}
+		]
+	}
+]

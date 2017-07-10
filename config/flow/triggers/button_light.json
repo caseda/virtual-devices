@@ -1,0 +1,15 @@
+[{
+		"id": "button_light_pushed",
+		"title": {
+			"en": "Light button is pushed",
+			"nl": "Lichtknop is ingedrukt"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=button_light"
+			}
+		]
+	}
+]

@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_tv_action_on",
+		"title": {
+			"en": "Turn TV on",
+			"nl": "Zet TV aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_tv"
+			}
+		]
+	}, {
+		"id": "virtual_tv_action_off",
+		"title": {
+			"en": "Turn TV off",
+			"nl": "Zet TV uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_tv"
+			}
+		]
+	}
+]

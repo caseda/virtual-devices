@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_manual_on",
+		"title": {
+			"en": "Manual mode is active",
+			"nl": "Handmatigemodus wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_manual"
+			}
+		]
+	}, {
+		"id": "virtual_manual_off",
+		"title": {
+			"en": "Manual mode is off",
+			"nl": "Handmatigemodus wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_manual"
+			}
+		]
+	}
+]

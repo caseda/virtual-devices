@@ -1,0 +1,44 @@
+{
+  "id": "switch_alarm",
+  "name": {
+    "en": "Alarm",
+    "nl": "Alarm"
+  },
+  "images": {
+    "large": "drivers/switch_alarm/assets/images/large.png",
+    "small": "drivers/switch_alarm/assets/images/small.png"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "list_alarm",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_alarm"
+      }
+    },
+    {
+      "id": "add_alarm",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

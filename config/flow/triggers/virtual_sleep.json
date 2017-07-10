@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_sleep_on",
+		"title": {
+			"en": "Sleep mode is active",
+			"nl": "Slaapmodus wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_sleep"
+			}
+		]
+	}, {
+		"id": "virtual_sleep_off",
+		"title": {
+			"en": "Sleep mode is off",
+			"nl": "Slaapmodus wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_sleep"
+			}
+		]
+	}
+]

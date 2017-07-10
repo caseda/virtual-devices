@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_event_on",
+		"title": {
+			"en": "Event mode is active",
+			"nl": "Eventmodus wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_event"
+			}
+		]
+	}, {
+		"id": "virtual_event_off",
+		"title": {
+			"en": "Event mode is off",
+			"nl": "Eventmodus wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_event"
+			}
+		]
+	}
+]

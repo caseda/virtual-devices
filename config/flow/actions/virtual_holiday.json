@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_holiday_action_on",
+		"title": {
+			"en": "Activate holiday mode",
+			"nl": "Zet vakantiemodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_holiday"
+			}
+		]
+	}, {
+		"id": "virtual_holiday_action_off",
+		"title": {
+			"en": "Turn holiday mode off",
+			"nl": "Zet vakantiemodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_holiday"
+			}
+		]
+	}
+]

@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_event_action_on",
+		"title": {
+			"en": "Turn event mode on",
+			"nl": "Zet eventmodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_event"
+			}
+		]
+	}, {
+		"id": "virtual_event_action_off",
+		"title": {
+			"en": "Turn event mode off",
+			"nl": "Zet eventmodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_event"
+			}
+		]
+	}
+]

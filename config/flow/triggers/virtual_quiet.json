@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_quiet_on",
+		"title": {
+			"en": "Quiet mode is active",
+			"nl": "Stiltemodus wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_quiet"
+			}
+		]
+	}, {
+		"id": "virtual_quiet_off",
+		"title": {
+			"en": "Quiet mode is off",
+			"nl": "Stiltemodus wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_quiet"
+			}
+		]
+	}
+]

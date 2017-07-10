@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_sleep",
+		"title": {
+			"en": "Sleep mode !{{is|isn't}} activated",
+			"nl": "Slaapmodus !{{is|is niet}} aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_sleep"
+			}
+		]
+	}
+]

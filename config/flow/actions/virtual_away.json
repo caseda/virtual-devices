@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_away_action_on",
+		"title": {
+			"en": "Turn away mode on",
+			"nl": "Zet wegmodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_away"
+			}
+		]
+	}, {
+		"id": "virtual_away_action_off",
+		"title": {
+			"en": "Turn away mode off",
+			"nl": "Zet wegmodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_away"
+			}
+		]
+	}
+]

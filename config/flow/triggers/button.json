@@ -1,0 +1,15 @@
+[{
+		"id": "button_pushed",
+		"title": {
+			"en": "Button is pushed",
+			"nl": "Knop is ingedrukt"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=button"
+			}
+		]
+	}
+]

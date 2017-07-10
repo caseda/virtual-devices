@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_movie_action_on",
+		"title": {
+			"en": "Turn movie mode on",
+			"nl": "Zet filmmodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_movie"
+			}
+		]
+	}, {
+		"id": "virtual_movie_action_off",
+		"title": {
+			"en": "Turn movie mode off",
+			"nl": "Zet filmmodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_movie"
+			}
+		]
+	}
+]

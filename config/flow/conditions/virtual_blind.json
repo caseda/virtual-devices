@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_blind",
+		"title": {
+			"en": "Blinds !{{are|aren't}} closed",
+			"nl": "Blindering !{{is|is niet}} omlaag"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=switch_blind"
+			}
+		]
+	}
+]

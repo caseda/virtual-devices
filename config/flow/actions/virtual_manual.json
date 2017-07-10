@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_manual_action_on",
+		"title": {
+			"en": "Turn manual mode on",
+			"nl": "Zet handmatigemodus aan"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_manual"
+			}
+		]
+	}, {
+		"id": "virtual_manual_action_off",
+		"title": {
+			"en": "Turn manual mode off",
+			"nl": "Zet handmatigemodus uit"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_manual"
+			}
+		]
+	}
+]

@@ -1,0 +1,44 @@
+{
+	"id": "button_hifi",
+	"name": {
+		"en": "Hi-Fi Button",
+		"nl": "Hifiknop"
+	},
+	"images": {
+		"large": "drivers/button_hifi/assets/images/large.png",
+		"small": "drivers/button_hifi/assets/images/small.png"
+	},
+	"class": "button",
+	"capabilities": [
+    "button"
+  ],
+	"pair": [
+		{
+			"id": "list_button_hifi",
+			"template": "list_devices",
+			"navigation": {
+				"next": "add_button_hifi"
+			}
+    },
+		{
+			"id": "add_button_hifi",
+			"template": "add_devices"
+    }
+  ],
+	"mobile": {
+		"components": [
+			{
+				"id": "icon",
+				"capabilities": [
+          "button"
+        ]
+      },
+			{
+				"id": "button",
+				"capabilities": [
+          "button"
+        ]
+      }
+    ]
+	}
+}

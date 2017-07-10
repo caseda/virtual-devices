@@ -1,0 +1,44 @@
+{
+  "id": "button_alarm",
+  "name": {
+    "en": "Alarm Button",
+    "nl": "Alarmknop"
+  },
+  "images": {
+    "large": "drivers/button_alarm/assets/images/large.png",
+    "small": "drivers/button_alarm/assets/images/small.png"
+  },
+  "class": "button",
+  "capabilities": [
+    "button"
+  ],
+  "pair": [
+    {
+      "id": "list_button_alarm",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_button_alarm"
+      }
+    },
+    {
+      "id": "add_button_alarm",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "button"
+        ]
+      },
+      {
+        "id": "button",
+        "capabilities": [
+          "button"
+        ]
+      }
+    ]
+  }
+}

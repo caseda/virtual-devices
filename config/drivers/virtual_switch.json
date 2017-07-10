@@ -1,0 +1,44 @@
+{
+  "id": "virtual_switch",
+  "name": {
+    "en": "Switch",
+    "nl": "Schakelaar"
+  },
+  "images": {
+    "large": "drivers/virtual_switch/assets/images/large.png",
+    "small": "drivers/virtual_switch/assets/images/small.png"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "pair": [
+    {
+      "id": "list_switches",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_switches"
+      }
+    },
+    {
+      "id": "add_switches",
+      "template": "add_devices"
+    }
+  ],
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": [
+          "onoff"
+        ]
+      },
+      {
+        "id": "toggle",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    ]
+  }
+}

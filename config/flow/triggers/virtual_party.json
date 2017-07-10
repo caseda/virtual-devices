@@ -1,0 +1,29 @@
+[
+	{
+		"id": "virtual_party_on",
+		"title": {
+			"en": "Party mode is active",
+			"nl": "Feestmodus wordt aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_party"
+			}
+		]
+	}, {
+		"id": "virtual_party_off",
+		"title": {
+			"en": "Party mode is off",
+			"nl": "Feestmodus wordt uitgezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_party"
+			}
+		]
+	}
+]

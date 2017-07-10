@@ -1,0 +1,15 @@
+[{
+		"id": "virtual_relax",
+		"title": {
+			"en": "Relax mode !{{is|isn't}} turned on",
+			"nl": "Ontspanmodus !{{is|is niet}} aangezet"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=mode_relax"
+			}
+		]
+	}
+]
